@@ -1,0 +1,126 @@
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+section div p {
+  line-height: 1px;
+}
+
+section div h3 {
+  margin-bottom: 0px;
+}
+
+section h1 {
+  margin-bottom: 0px;
+}
+
+.one-container-imc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-tidy {
+  padding: 3rem;
+  margin: 5rem auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.calcular {
+  width: 100%;
+  line-height: 40px;
+  font-size: 1.4rem;
+  background: var(--primary-color-darker);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 28px;
+}
+
+input {
+  width: 100%;
+  line-height: 35px;
+}
+
+.resultado {
+  display: flex;
+  width: 100%;
+  background: #5f8d99;
+  margin-top: 20px;
+  align-items: center;
+  padding: 5px;
+}
+
+.paragrafo-resultado {
+  background: #09c7a7;
+  padding: 20px 10px;
+}
+
+.paragrafo-resultado-falso {
+  background: #ff8484;
+  padding: 20px 10px;
+}
+
+#insta {
+  color: rgb(255, 0, 76);
+}
